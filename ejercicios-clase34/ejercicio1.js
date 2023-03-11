@@ -2,13 +2,15 @@
 
 // Creación de la función
 function miFuncion(texto = "") {
-    if (texto.length == 0){
-        console.log(`No has insertado ninguna cadena.\n`);
+    if (texto.length === 0){
+        console.log(`No has insertado ninguna cadena.`);
     }else {
-        console.log(`'${texto}' tiene ${texto.length} caracteres.\n`);
+        console.log(`'${texto}' tiene ${texto.length} caracteres.`);
     }
 }
 
 // Ejecuciones de la función
+console.log("\nEjecución 1:");
 miFuncion("Hola Mundo");
+console.log("\nEjecución 2:");
 miFuncion();

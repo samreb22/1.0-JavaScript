@@ -3,9 +3,9 @@ pe. miFuncion('hola que tal', ' ') devolverá ['hola', 'que', 'tal']. */
 
 // Creación de la función
 function miFuncion(texto = "", sep = undefined){
-    if (texto.length == 0){
+    if (texto.length === 0){
         console.log(`No has insertado ninguna cadena.`);
-    }else if (sep == undefined){
+    }else if (sep === undefined){
         console.log(`No has insertado el caracter separador.`);
     }else {
         let arr = texto.split(sep);
