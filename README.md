@@ -1,4 +1,4 @@
-Práctica 1.0-JavaScript
+# Práctica 1.0-JavaScript
 
 ![image](https://user-images.githubusercontent.com/127318967/224695438-f6f2e487-c408-4fb3-9d12-c04615f3447c.png)
 
